@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" width="400" height="540">
+      <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0F19" />
+          <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+      </defs>
+      <!-- Mobile Device Shell -->
+      <rect width="400" height="540" rx="28" fill="url(#bg)" stroke="#1F2937" stroke-width="3" />
+      <!-- Top Status Bar -->
+      <rect x="130" y="8" width="140" height="18" rx="9" fill="#000000" />
+      <text x="40" y="22" fill="#94A3B8" font-size="10" font-weight="bold">9:41</text>
+      <circle cx="350" cy="18" r="3" fill="#94A3B8" />
+      <circle cx="360" cy="18" r="3" fill="#94A3B8" />
+      <!-- Screen Header -->
+      <rect x="20" y="36" width="360" height="36" rx="10" fill="#1E293B" />
+      <text x="35" y="58" fill="#8B5CF6" font-size="12" font-weight="bold">Zenius AI Mobile Co-Pilot</text>
+      
+      <!-- AI Welcome Message -->
+      <rect x="30" y="90" width="300" height="95" rx="16" fill="#1E293B" stroke="#334155" />
+      <circle cx="50" cy="112" r="10" fill="#4F46E5" />
+      <text x="68" y="116" fill="#818CF8" font-size="11" font-weight="bold">Zenius AI</text>
+      <text x="50" y="138" fill="#F8FAFC" font-size="11">Hello Virendra! Your sales pipeline is $340K</text>
+      <text x="50" y="156" fill="#F8FAFC" font-size="11">across 4 deals. Ready to review top lead?</text>
+
+      <!-- User Message -->
+      <rect x="110" y="200" width="260" height="44" rx="16" fill="#4F46E5" />
+      <text x="130" y="226" fill="#FFFFFF" font-size="11">Analyze sales pipeline for Q4</text>
+
+      <!-- AI Response with Action Proposal -->
+      <rect x="30" y="260" width="310" height="125" rx="16" fill="#1E293B" stroke="#334155" />
+      <circle cx="50" cy="282" r="10" fill="#4F46E5" />
+      <text x="68" y="286" fill="#818CF8" font-size="11" font-weight="bold">Zenius AI</text>
+      <text x="50" y="308" fill="#F8FAFC" font-size="11">📊 Global ERP Migration ($145K) is in</text>
+      <text x="50" y="326" fill="#F8FAFC" font-size="11">Proposal with 70% probability.</text>
+      <rect x="50" y="340" width="150" height="28" rx="8" fill="#4F46E5" fill-opacity="0.15" stroke="#4F46E5" />
+      <text x="125" y="358" fill="#818CF8" font-size="10" font-weight="bold" text-anchor="middle">View Deals Pipeline →</text>
+
+      <!-- Input Bar -->
+      <rect x="30" y="460" width="285" height="40" rx="20" fill="#1E293B" stroke="#334155" />
+      <text x="50" y="485" fill="#94A3B8" font-size="11">Ask Zenius AI anything...</text>
+      <circle cx="345" cy="480" r="18" fill="#4F46E5" />
+    
+    </svg>

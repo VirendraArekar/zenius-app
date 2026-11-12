@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" width="400" height="540">
+      <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0F19" />
+          <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+      </defs>
+      <!-- Mobile Device Shell -->
+      <rect width="400" height="540" rx="28" fill="url(#bg)" stroke="#1F2937" stroke-width="3" />
+      <!-- Top Status Bar -->
+      <rect x="130" y="8" width="140" height="18" rx="9" fill="#000000" />
+      <text x="40" y="22" fill="#94A3B8" font-size="10" font-weight="bold">9:41</text>
+      <circle cx="350" cy="18" r="3" fill="#94A3B8" />
+      <circle cx="360" cy="18" r="3" fill="#94A3B8" />
+      <!-- Screen Header -->
+      <rect x="20" y="36" width="360" height="36" rx="10" fill="#1E293B" />
+      <text x="35" y="58" fill="#4F46E5" font-size="12" font-weight="bold">Executive Command Center</text>
+      
+      <rect x="30" y="80" width="340" height="120" rx="16" fill="#1E1B4B" />
+      <text x="50" y="115" fill="#FFFFFF" font-size="14" font-weight="bold">Executive Command Center</text>
+      <text x="50" y="135" fill="#94A3B8" font-size="11">Live cross-suite revenue & GPS attendance</text>
+      <rect x="50" y="150" width="120" height="32" rx="8" fill="#10B981" fill-opacity="0.2" />
+      <text x="110" y="171" fill="#34D399" font-size="11" font-weight="bold" text-anchor="middle">OPERATIONAL</text>
+
+      <rect x="30" y="215" width="160" height="90" rx="14" fill="#1E293B" stroke="#334155" />
+      <text x="45" y="240" fill="#94A3B8" font-size="10">Sales Pipeline</text>
+      <text x="45" y="270" fill="#818CF8" font-size="18" font-weight="bold">$340K</text>
+      <text x="45" y="290" fill="#64748B" font-size="9">4 deals · 4 leads</text>
+
+      <rect x="210" y="215" width="160" height="90" rx="14" fill="#1E293B" stroke="#334155" />
+      <text x="225" y="240" fill="#94A3B8" font-size="10">Invoiced Revenue</text>
+      <text x="225" y="270" fill="#34D399" font-size="18" font-weight="bold">$168K</text>
+      <text x="225" y="290" fill="#64748B" font-size="9">$42K receivable</text>
+
+      <rect x="30" y="320" width="340" height="180" rx="14" fill="#1E293B" stroke="#334155" />
+      <text x="45" y="345" fill="#FFFFFF" font-size="12" font-weight="bold">Operations Record Volume</text>
+      <!-- Bars -->
+      <rect x="60" y="410" width="24" height="70" rx="6" fill="#4F46E5" />
+      <rect x="115" y="380" width="24" height="100" rx="6" fill="#06B6D4" />
+      <rect x="170" y="395" width="24" height="85" rx="6" fill="#10B981" />
+      <rect x="225" y="430" width="24" height="50" rx="6" fill="#F59E0B" />
+      <rect x="280" y="370" width="24" height="110" rx="6" fill="#EC4899" />
+      <rect x="330" y="420" width="24" height="60" rx="6" fill="#8B5CF6" />
+    
+    </svg>

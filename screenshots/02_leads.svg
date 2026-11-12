@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" width="400" height="540">
+      <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0F19" />
+          <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+      </defs>
+      <!-- Mobile Device Shell -->
+      <rect width="400" height="540" rx="28" fill="url(#bg)" stroke="#1F2937" stroke-width="3" />
+      <!-- Top Status Bar -->
+      <rect x="130" y="8" width="140" height="18" rx="9" fill="#000000" />
+      <text x="40" y="22" fill="#94A3B8" font-size="10" font-weight="bold">9:41</text>
+      <circle cx="350" cy="18" r="3" fill="#94A3B8" />
+      <circle cx="360" cy="18" r="3" fill="#94A3B8" />
+      <!-- Screen Header -->
+      <rect x="20" y="36" width="360" height="36" rx="10" fill="#1E293B" />
+      <text x="35" y="58" fill="#06B6D4" font-size="12" font-weight="bold">Smart Leads & Lead Scoring</text>
+      
+      <rect x="30" y="80" width="340" height="44" rx="12" fill="#1E293B" stroke="#334155" />
+      <text x="65" y="107" fill="#94A3B8" font-size="11">Search leads by name or company...</text>
+      
+      <!-- Lead 1 -->
+      <rect x="30" y="140" width="340" height="80" rx="14" fill="#1E293B" stroke="#334155" />
+      <circle cx="65" cy="180" r="20" fill="#10B981" fill-opacity="0.15" stroke="#10B981" />
+      <text x="65" y="185" fill="#10B981" font-size="12" font-weight="bold" text-anchor="middle">92</text>
+      <text x="100" y="170" fill="#FFFFFF" font-size="13" font-weight="bold">Samantha Reed</text>
+      <text x="100" y="188" fill="#94A3B8" font-size="11">Apex Technologies · $45,000</text>
+      <rect x="285" y="160" width="70" height="22" rx="6" fill="#10B981" fill-opacity="0.2" />
+      <text x="320" y="175" fill="#34D399" font-size="9" font-weight="bold" text-anchor="middle">QUALIFIED</text>
+
+      <!-- Lead 2 -->
+      <rect x="30" y="235" width="340" height="80" rx="14" fill="#1E293B" stroke="#334155" />
+      <circle cx="65" cy="275" r="20" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" />
+      <text x="65" y="280" fill="#F59E0B" font-size="12" font-weight="bold" text-anchor="middle">88</text>
+      <text x="100" y="265" fill="#FFFFFF" font-size="13" font-weight="bold">Rahul Sharma</text>
+      <text x="100" y="283" fill="#94A3B8" font-size="11">Tata Enterprises · $72,000</text>
+      <rect x="285" y="255" width="70" height="22" rx="6" fill="#3B82F6" fill-opacity="0.2" />
+      <text x="320" y="270" fill="#60A5FA" font-size="9" font-weight="bold" text-anchor="middle">CONTACTED</text>
+
+      <!-- Lead 3 -->
+      <rect x="30" y="330" width="340" height="80" rx="14" fill="#1E293B" stroke="#334155" />
+      <circle cx="65" cy="370" r="20" fill="#10B981" fill-opacity="0.15" stroke="#10B981" />
+      <text x="65" y="375" fill="#10B981" font-size="12" font-weight="bold" text-anchor="middle">96</text>
+      <text x="100" y="360" fill="#FFFFFF" font-size="13" font-weight="bold">Elena Rostova</text>
+      <text x="100" y="378" fill="#94A3B8" font-size="11">Nova Systems GmbH · $120,000</text>
+      <rect x="285" y="350" width="70" height="22" rx="6" fill="#6366F1" fill-opacity="0.2" />
+      <text x="320" y="365" fill="#818CF8" font-size="9" font-weight="bold" text-anchor="middle">NEW</text>
+    
+    </svg>
