@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="35%" stop-color="#4F46E5" />
+      <stop offset="70%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <!-- Z Monogram Gradient -->
+    <linearGradient id="zGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <!-- Cyan Ribbon Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.45" />
+    </filter>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with Rich Radial & Linear Gradient -->
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)" />
+
+  <!-- Dynamic Ambient Glow Circles -->
+  <circle cx="120" cy="100" r="160" fill="#818CF8" opacity="0.22" filter="url(#glow)" />
+  <circle cx="420" cy="420" r="180" fill="#22D3EE" opacity="0.28" filter="url(#glow)" />
+
+  <!-- Subtly Inset Border for Glass Effect -->
+  <rect x="12" y="12" width="488" height="488" rx="103" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="4" />
+
+  <!-- Geometric Decorative Floating Orbs -->
+  <circle cx="390" cy="130" r="26" fill="url(#goldGrad)" filter="url(#dropShadow)" />
+  <circle cx="120" cy="380" r="18" fill="url(#cyanGrad)" filter="url(#dropShadow)" />
+
+  <!-- Central Modern 3D Zenius 'Z' Monogram -->
+  <g filter="url(#dropShadow)">
+    <!-- Top Horizontal Beam -->
+    <path d="M 140 145 L 360 145 C 374 145 385 156 385 170 L 385 185 C 385 196 378 206 368 211 L 225 295 L 360 295 C 374 295 385 306 385 320 L 385 345 C 385 359 374 370 360 370 L 140 370 C 126 370 115 359 115 345 L 115 330 C 115 319 122 309 132 304 L 275 220 L 140 220 C 126 220 115 209 115 195 L 115 170 C 115 156 126 145 140 145 Z" fill="url(#zGrad)" />
+    <!-- Dynamic Diagonal Accent Ribbon -->
+    <path d="M 195 240 L 310 320 L 360 320 L 245 240 Z" fill="url(#goldGrad)" opacity="0.95" />
+  </g>
+
+  <!-- Bottom Badge: ONE -->
+  <g transform="translate(256, 435)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#0F172A" fill-opacity="0.6" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.5" />
+    <text x="0" y="6" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="4" text-anchor="middle">ONE</text>
+  </g>
+</svg>
