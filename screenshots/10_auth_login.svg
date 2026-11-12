@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
+      <defs>
+        <linearGradient id="deviceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0F19" />
+          <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+        <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35" />
+        </filter>
+      </defs>
+
+      <!-- Mobile Device Shell -->
+      <rect width="400" height="550" rx="32" fill="url(#deviceBg)" stroke="#1F2937" stroke-width="4" />
+
+      <!-- Notch / Camera Island -->
+      <rect x="130" y="6" width="140" height="18" rx="9" fill="#000000" />
+      <circle cx="150" cy="15" r="4" fill="#1E293B" />
+      <circle cx="240" cy="15" r="3" fill="#1E293B" />
+
+      <!-- Status Bar -->
+      <text x="32" y="20" fill="#94A3B8" font-size="10" font-weight="bold">9:41</text>
+      <circle cx="350" cy="16" r="2.5" fill="#94A3B8" />
+      <circle cx="360" cy="16" r="2.5" fill="#94A3B8" />
+      <rect x="368" y="12" width="14" height="8" rx="2" fill="none" stroke="#94A3B8" stroke-width="1" />
+      <rect x="370" y="14" width="9" height="4" rx="1" fill="#94A3B8" />
+
+      <!-- App Header Bar -->
+      <rect x="16" y="32" width="368" height="38" rx="12" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <circle cx="36" cy="51" r="5" fill="#10B981" />
+      <text x="48" y="55" fill="#FFFFFF" font-size="12" font-weight="bold">Zenius One Authentication</text>
+      <circle cx="355" cy="51" r="12" fill="#334155" />
+      <circle cx="355" cy="48" r="3" fill="#38BDF8" />
+
+      <!-- Screen Content Body -->
+      
+  <g transform="translate(200, 140)">
+    <rect x="-40" y="-40" width="80" height="80" rx="20" fill="#4F46E5" />
+    <text x="0" y="12" fill="#FFFFFF" font-size="32" font-weight="bold" text-anchor="middle">Z</text>
+  </g>
+  <text x="200" y="205" fill="#FFFFFF" font-size="18" font-weight="bold" text-anchor="middle">Zenius One</text>
+  <text x="200" y="225" fill="#94A3B8" font-size="11" text-anchor="middle">Enterprise Cloud Operating System</text>
+
+  <!-- Login Inputs -->
+  <rect x="40" y="255" width="320" height="44" rx="10" fill="#1E293B" stroke="#334155" />
+  <text x="60" y="282" fill="#FFFFFF" font-size="11">admin@zenius.com</text>
+
+  <rect x="40" y="310" width="320" height="44" rx="10" fill="#1E293B" stroke="#334155" />
+  <text x="60" y="337" fill="#94A3B8" font-size="11">••••••••••••</text>
+
+  <rect x="40" y="370" width="320" height="44" rx="12" fill="#4F46E5" />
+  <text x="200" y="397" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">SIGN IN TO ZENIUS</text>
+  <text x="200" y="435" fill="#10B981" font-size="10" font-weight="bold" text-anchor="middle">🔒 TOTP MFA Security Guard Active</text>
+
+
+      <!-- Bottom Navigation Bar -->
+      <rect x="16" y="496" width="368" height="44" rx="22" fill="#0F172A" stroke="#334155" stroke-width="1" filter="url(#cardGlow)" />
+      
+          <g transform="translate(40, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#4F46E5" fill-opacity="0.15" />
+            <circle cx="0" cy="-8" r="3" fill="#4F46E5" />
+            <text x="0" y="10" fill="#4F46E5" font-size="9" font-weight="bold" text-anchor="middle">Home</text>
+          </g>
+        
+          <g transform="translate(120, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Pipeline</text>
+          </g>
+        
+          <g transform="translate(200, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Check-In</text>
+          </g>
+        
+          <g transform="translate(280, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Zenius AI</text>
+          </g>
+        
+          <g transform="translate(360, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">More</text>
+          </g>
+        
+    </svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
+      <defs>
+        <linearGradient id="deviceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0F19" />
+          <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+        <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35" />
+        </filter>
+      </defs>
+
+      <!-- Mobile Device Shell -->
+      <rect width="400" height="550" rx="32" fill="url(#deviceBg)" stroke="#1F2937" stroke-width="4" />
+
+      <!-- Notch / Camera Island -->
+      <rect x="130" y="6" width="140" height="18" rx="9" fill="#000000" />
+      <circle cx="150" cy="15" r="4" fill="#1E293B" />
+      <circle cx="240" cy="15" r="3" fill="#1E293B" />
+
+      <!-- Status Bar -->
+      <text x="32" y="20" fill="#94A3B8" font-size="10" font-weight="bold">9:41</text>
+      <circle cx="350" cy="16" r="2.5" fill="#94A3B8" />
+      <circle cx="360" cy="16" r="2.5" fill="#94A3B8" />
+      <rect x="368" y="12" width="14" height="8" rx="2" fill="none" stroke="#94A3B8" stroke-width="1" />
+      <rect x="370" y="14" width="9" height="4" rx="1" fill="#94A3B8" />
+
+      <!-- App Header Bar -->
+      <rect x="16" y="32" width="368" height="38" rx="12" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <circle cx="36" cy="51" r="5" fill="#10B981" />
+      <text x="48" y="55" fill="#FFFFFF" font-size="12" font-weight="bold">More & Settings</text>
+      <circle cx="355" cy="51" r="12" fill="#334155" />
+      <circle cx="355" cy="48" r="3" fill="#38BDF8" />
+
+      <!-- Screen Content Body -->
+      
+  <rect x="20" y="78" width="360" height="95" rx="16" fill="#1E293B" stroke="#334155" />
+  <circle cx="60" cy="125" r="24" fill="#4F46E5" fill-opacity="0.2" />
+  <text x="60" y="132" fill="#818CF8" font-size="16" font-weight="bold" text-anchor="middle">V</text>
+  <text x="100" y="116" fill="#FFFFFF" font-size="13" font-weight="bold">Virendra Arekar</text>
+  <text x="100" y="134" fill="#94A3B8" font-size="10">admin@zenius.com • SUPER_ADMIN</text>
+  <rect x="100" y="144" width="180" height="20" rx="6" fill="#4F46E5" fill-opacity="0.15" />
+  <text x="108" y="158" fill="#818CF8" font-size="9" font-weight="bold">Acme Global Corp (USD $)</text>
+
+  <rect x="20" y="188" width="360" height="52" rx="12" fill="#1E293B" stroke="#334155" />
+  <circle cx="45" cy="214" r="12" fill="#4F46E5" fill-opacity="0.2" />
+  <text x="70" y="218" fill="#FFFFFF" font-size="11" font-weight="bold">Switch Organization Context</text>
+
+  <rect x="20" y="248" width="360" height="52" rx="12" fill="#1E293B" stroke="#334155" />
+  <circle cx="45" cy="274" r="12" fill="#06B6D4" fill-opacity="0.2" />
+  <text x="70" y="278" fill="#FFFFFF" font-size="11" font-weight="bold">Dark Mode Theme</text>
+  <rect x="320" y="264" width="36" height="20" rx="10" fill="#4F46E5" />
+  <circle cx="346" cy="274" r="8" fill="#FFFFFF" />
+
+  <rect x="20" y="308" width="360" height="52" rx="12" fill="#1E293B" stroke="#334155" />
+  <circle cx="45" cy="334" r="12" fill="#10B981" fill-opacity="0.2" />
+  <text x="70" y="338" fill="#FFFFFF" font-size="11" font-weight="bold">Security & TOTP MFA Guard</text>
+
+  <rect x="20" y="368" width="360" height="52" rx="12" fill="#1E293B" stroke="#334155" />
+  <circle cx="45" cy="394" r="12" fill="#F59E0B" fill-opacity="0.2" />
+  <text x="70" y="398" fill="#FFFFFF" font-size="11" font-weight="bold">Microservices Architecture Info</text>
+
+
+      <!-- Bottom Navigation Bar -->
+      <rect x="16" y="496" width="368" height="44" rx="22" fill="#0F172A" stroke="#334155" stroke-width="1" filter="url(#cardGlow)" />
+      
+          <g transform="translate(40, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Home</text>
+          </g>
+        
+          <g transform="translate(120, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Pipeline</text>
+          </g>
+        
+          <g transform="translate(200, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Check-In</text>
+          </g>
+        
+          <g transform="translate(280, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Zenius AI</text>
+          </g>
+        
+          <g transform="translate(360, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#4F46E5" fill-opacity="0.15" />
+            <circle cx="0" cy="-8" r="3" fill="#4F46E5" />
+            <text x="0" y="10" fill="#4F46E5" font-size="9" font-weight="bold" text-anchor="middle">More</text>
+          </g>
+        
+    </svg>

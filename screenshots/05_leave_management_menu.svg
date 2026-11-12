@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
+      <defs>
+        <linearGradient id="deviceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0F19" />
+          <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+        <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35" />
+        </filter>
+      </defs>
+
+      <!-- Mobile Device Shell -->
+      <rect width="400" height="550" rx="32" fill="url(#deviceBg)" stroke="#1F2937" stroke-width="4" />
+
+      <!-- Notch / Camera Island -->
+      <rect x="130" y="6" width="140" height="18" rx="9" fill="#000000" />
+      <circle cx="150" cy="15" r="4" fill="#1E293B" />
+      <circle cx="240" cy="15" r="3" fill="#1E293B" />
+
+      <!-- Status Bar -->
+      <text x="32" y="20" fill="#94A3B8" font-size="10" font-weight="bold">9:41</text>
+      <circle cx="350" cy="16" r="2.5" fill="#94A3B8" />
+      <circle cx="360" cy="16" r="2.5" fill="#94A3B8" />
+      <rect x="368" y="12" width="14" height="8" rx="2" fill="none" stroke="#94A3B8" stroke-width="1" />
+      <rect x="370" y="14" width="9" height="4" rx="1" fill="#94A3B8" />
+
+      <!-- App Header Bar -->
+      <rect x="16" y="32" width="368" height="38" rx="12" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <circle cx="36" cy="51" r="5" fill="#10B981" />
+      <text x="48" y="55" fill="#FFFFFF" font-size="12" font-weight="bold">Leave Management</text>
+      <circle cx="355" cy="51" r="12" fill="#334155" />
+      <circle cx="355" cy="48" r="3" fill="#38BDF8" />
+
+      <!-- Screen Content Body -->
+      
+  <!-- Leave Balances -->
+  <rect x="20" y="78" width="112" height="75" rx="12" fill="#1E293B" stroke="#334155" />
+  <text x="32" y="98" fill="#94A3B8" font-size="9">Paid Leave</text>
+  <text x="32" y="128" fill="#818CF8" font-size="20" font-weight="bold">14</text>
+  <text x="32" y="144" fill="#64748B" font-size="8">days remaining</text>
+
+  <rect x="144" y="78" width="112" height="75" rx="12" fill="#1E293B" stroke="#334155" />
+  <text x="156" y="98" fill="#94A3B8" font-size="9">Casual</text>
+  <text x="156" y="128" fill="#22D3EE" font-size="20" font-weight="bold">8</text>
+  <text x="156" y="144" fill="#64748B" font-size="8">days remaining</text>
+
+  <rect x="268" y="78" width="112" height="75" rx="12" fill="#1E293B" stroke="#334155" />
+  <text x="280" y="98" fill="#94A3B8" font-size="9">Sick Leave</text>
+  <text x="280" y="128" fill="#F59E0B" font-size="20" font-weight="bold">5</text>
+  <text x="280" y="144" fill="#64748B" font-size="8">days remaining</text>
+
+  <!-- Apply Leave Button -->
+  <rect x="20" y="165" width="360" height="42" rx="12" fill="#4F46E5" />
+  <text x="200" y="191" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">+ Apply for Leave</text>
+
+  <!-- History -->
+  <text x="20" y="232" fill="#FFFFFF" font-size="12" font-weight="bold">Leave Application History</text>
+
+  <rect x="20" y="246" width="360" height="70" rx="12" fill="#1E293B" stroke="#334155" />
+  <text x="36" y="270" fill="#FFFFFF" font-size="12" font-weight="bold">PAID ANNUAL LEAVE</text>
+  <text x="36" y="286" fill="#94A3B8" font-size="10">Nov 16 - Nov 18, 2026 (3 days)</text>
+  <text x="36" y="302" fill="#CBD5E1" font-size="9" font-style="italic">Family annual vacation</text>
+  <rect x="295" y="260" width="70" height="20" rx="6" fill="#10B981" fill-opacity="0.2" />
+  <text x="330" y="274" fill="#34D399" font-size="8" font-weight="bold" text-anchor="middle">APPROVED</text>
+
+  <rect x="20" y="326" width="360" height="70" rx="12" fill="#1E293B" stroke="#334155" />
+  <text x="36" y="350" fill="#FFFFFF" font-size="12" font-weight="bold">MEDICAL / SICK LEAVE</text>
+  <text x="36" y="366" fill="#94A3B8" font-size="10">Nov 2 - Nov 3, 2026 (2 days)</text>
+  <text x="36" y="382" fill="#CBD5E1" font-size="9" font-style="italic">Fever rest</text>
+  <rect x="295" y="340" width="70" height="20" rx="6" fill="#10B981" fill-opacity="0.2" />
+  <text x="330" y="354" fill="#34D399" font-size="8" font-weight="bold" text-anchor="middle">APPROVED</text>
+
+
+      <!-- Bottom Navigation Bar -->
+      <rect x="16" y="496" width="368" height="44" rx="22" fill="#0F172A" stroke="#334155" stroke-width="1" filter="url(#cardGlow)" />
+      
+          <g transform="translate(40, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Home</text>
+          </g>
+        
+          <g transform="translate(120, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Pipeline</text>
+          </g>
+        
+          <g transform="translate(200, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#4F46E5" fill-opacity="0.15" />
+            <circle cx="0" cy="-8" r="3" fill="#4F46E5" />
+            <text x="0" y="10" fill="#4F46E5" font-size="9" font-weight="bold" text-anchor="middle">Check-In</text>
+          </g>
+        
+          <g transform="translate(280, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">Zenius AI</text>
+          </g>
+        
+          <g transform="translate(360, 520)">
+            <circle cx="0" cy="-8" r="12" fill="#64748B" fill-opacity="0" />
+            <circle cx="0" cy="-8" r="3" fill="#64748B" />
+            <text x="0" y="10" fill="#64748B" font-size="9" font-weight="normal" text-anchor="middle">More</text>
+          </g>
+        
+    </svg>

@@ -5,94 +5,132 @@
   <br>
   <strong>Unified Enterprise Mobile Application — CRM, ERP, Geo Attendance & AI Operations</strong>
   <br>
-  <em>Designed with Google Flutter & Material 3 · Inspired by Zoho CRM & Zoho One</em>
+  <em>Built with Google Flutter & Material 3 · Inspired by Zoho CRM & Zoho One</em>
 </p>
 
 ---
 
 ## 🌟 Overview
 
-The **Zenius One Mobile App** is a cross-platform (iOS, Android, Web, macOS) enterprise mobile client designed to give field sales reps, managers, and executives instant control over CRM pipelines, real-time revenue analytics, field GPS check-in/attendance, and AI-assisted workflows.
+The **Zenius One Mobile App** is a production-grade, cross-platform mobile client (iOS, Android, Web, macOS) built with Flutter. It provides field sales representatives, operations executives, and managers with real-time sales pipelines, revenue telemetry, field GPS check-in/out attendance, leave applications, activity scheduling, and conversational AI assistance.
 
 ### 🎨 App Icon Design
-The app icon represents the modern, multi-suite identity of Zenius One:
-* **Background:** Multi-stop radial gradient transitioning from Deep Indigo (`#312E81`) to Electric Royal Iris (`#4F46E5`), Violet (`#7C3AED`), and Electric Cyan (`#06B6D4`).
-* **Emblem:** High-DPI 3D geometric **'Z'** monogram layered with warm golden amber (`#F59E0B`) ribbon highlights and neon cyan accents.
-* **Standard & Professional:** Crafted in SVG vector format and adaptive launcher icons.
+* **Base:** Multi-stage radial gradient squircle (Deep Indigo `#312E81` $\rightarrow$ Royal Iris `#4F46E5` $\rightarrow$ Violet `#7C3AED` $\rightarrow$ Electric Cyan `#06B6D4`).
+* **Monogram:** 3D geometric **'Z'** monogram with warm golden amber (`#F59E0B`) ribbon highlights and radiant white bevels.
+* **Badging:** Precision-crafted "ONE" pill tag representing all-in-one suite integration.
 
 ---
 
-## 📸 Screen Gallery & Features
+## 📸 Complete Screen Gallery
+
+Every major screen and menu workflow is showcased below:
 
 <div align="center">
 
-### 1. Executive Command Center (Dashboard)
-<img src="screenshots/01_dashboard.svg" width="340" alt="Executive Command Center" />
+### 1. 🏠 Home Screen & Command Center Shell
+<img src="screenshots/01_home_screen.svg" width="360" alt="Home Screen & Command Center" />
 
-* **Live Telemetry KPIs:** Real-time Sales Pipeline, Invoiced Revenue, Active Workforce, and Open SLA tickets.
-* **Colorful Data Visualizations (`fl_chart`):** Interactive **Bars / Donut** switcher displaying record density and portfolio share across suites.
-* **Today's Agenda & Feed:** Quick morning overview of customer meetings, scheduled demos, and hot leads.
-
----
-
-### 2. Smart Leads & Scoring
-<img src="screenshots/02_leads.svg" width="340" alt="Smart Leads" />
-
-* **Automated Lead Scoring:** 0-100 visual score avatar with high-converting color codes (Emerald `>=80`, Amber `>=50`, Red `<50`).
-* **Lead Conversion Workflow:** One-tap conversion of qualified leads into Accounts, Contacts, and Pipeline Deals.
-* **Instant Actions:** One-tap phone call and email triggers directly from the card.
+* **Executive Pulse Banner:** Operational status indicator and current organization tag.
+* **4 Telemetry KPI Cards:** Sales Pipeline (\$340K), Invoiced Revenue (\$168K), Active Workforce (32 staff), and Support SLAs (2 open).
+* **Real-Time fl_chart Visualizations:** Interactive Bar and Donut chart switcher.
+* **Persistent Bottom Navigation:** Direct access to `Home`, `Pipeline`, `Check-In`, `Zenius AI`, and `More`.
 
 ---
 
-### 3. Deals Pipeline Funnel
-<img src="screenshots/03_deals_pipeline.svg" width="340" alt="Deals Pipeline Funnel" />
+### 2. 👥 Leads Management & Scoring Menu
+<img src="screenshots/02_leads_menu.svg" width="360" alt="Leads Management Menu" />
 
-* **Probability-Adjusted Weighted Forecast:** Automatic probability calculations for deals across stages.
-* **Visual Stage Chips:** Color-coded stages (Prospect, Qualification, Needs Analysis, Proposal, Negotiation, Closed Won, Closed Lost).
-* **Progress Steppers:** Visual probability progress bar on every deal card.
-
----
-
-### 4. Field Sales Geo Check-In & Attendance
-<img src="screenshots/04_geo_checkin.svg" width="340" alt="Field Sales Geo Check-In" />
-
-* **GPS Geofence Verification:** Automatically detects latitude, longitude, and geocoded address (`San Francisco HQ, 500 Howard St, CA`).
-* **Anti-Spoof Guard:** Detects and flags mock locations or VPN location tampering.
-* **Leave Management:** Real-time balances for Paid (14d), Casual (8d), and Sick Leave (5d) with application modal.
+* **Automated Scoring (0-100):** Visual score badge with color tiers (Emerald $\ge 80$, Amber $\ge 50$, Red $<50$).
+* **Real-Time Filtering & Search:** Instant search by contact name, company, or lead source.
+* **One-Tap Actions:** Direct phone dialing, email drafting, and conversion to active deals.
 
 ---
 
-### 5. Zenius AI Mobile Co-Pilot
-<img src="screenshots/05_ai_assistant.svg" width="340" alt="Zenius AI Assistant" />
+### 3. 💼 Deals Pipeline & Stage Funnel Menu
+<img src="screenshots/03_deals_pipeline_menu.svg" width="360" alt="Deals Pipeline Menu" />
 
-* **Conversational Executive Intelligence:** Natural language inquiries into sales pipelines, attendance rates, and customer accounts.
-* **Action Proposals:** Smart contextual buttons that allow instant navigation (e.g., *"View Deals Pipeline"*, *"Check In Now"*, *"Call Samantha"*).
+* **Pipeline Summary Header:** Open Pipeline (\$340,000) and Probability-Adjusted Weighted Forecast (\$246,500).
+* **Horizontal Stage Chips:** Filter by stages (`Qualification`, `Proposal`, `Negotiation`, `Closed Won`).
+* **Deal Cards:** Visual probability progress bars, account names, and deal amounts.
 
 ---
 
-### 6. Multi-Tenant Organization Switcher
-<img src="screenshots/06_org_switcher.svg" width="340" alt="Multi-Tenant Org Switcher" />
+### 4. 📍 GPS Field Sales Check-In Menu
+<img src="screenshots/04_geo_checkin_menu.svg" width="360" alt="GPS Field Check-In Menu" />
+
+* **GPS Geofence Verification:** Automatically logs latitude, longitude, and geocoded site address.
+* **Mock Location Prevention:** Built-in anti-spoof guard flags simulated or fake GPS locations.
+* **Active Status Card:** Large **CHECK IN** / **CHECK OUT** toggle button with live session duration.
+
+---
+
+### 5. 🏖 Leave Management & Balances Menu
+<img src="screenshots/05_leave_management_menu.svg" width="360" alt="Leave Management Menu" />
+
+* **Leave Balance Overview:** Paid Annual Leave (14d remaining), Casual Leave (8d), and Sick Leave (5d).
+* **One-Tap Application:** Modal to request leaves with category selection, date ranges, and reasons.
+* **Application History:** Status pills tracking approved and pending requests.
+
+---
+
+### 6. 📅 Activities & Meetings Agenda Menu
+<img src="screenshots/06_activities_agenda_menu.svg" width="360" alt="Activities & Agenda Menu" />
+
+* **Unified Agenda Feed:** Chronological schedule of customer meetings, phone calls, and tasks.
+* **Completion Toggles:** Instant checkbox to mark to-dos and follow-ups as finished.
+* **Quick Scheduling Modal:** Add new client appointments with date-time pickers.
+
+---
+
+### 7. 🤖 Zenius AI Mobile Co-Pilot Menu
+<img src="screenshots/07_ai_assistant_menu.svg" width="360" alt="Zenius AI Assistant Menu" />
+
+* **Natural Language Queries:** Ask *"Analyze sales pipeline"*, *"Check team attendance"*, or *"Summarize top lead"*.
+* **Interactive Action Proposals:** Smart contextual buttons to navigate immediately (*"View Deals Pipeline →"*, *"Call Samantha Now →"*).
+
+---
+
+### 8. ⚙️ More Menu & Profile Settings
+<img src="screenshots/08_more_settings_menu.svg" width="360" alt="More Menu Screen" />
+
+* **User Profile Header:** Active user, role badge (`SUPER_ADMIN`), and email.
+* **Active Organization Banner:** Tap to open the organization switcher.
+* **Dark / Light Theme Toggle:** Instant switch between dark canvas and high-contrast light theme.
+
+---
+
+### 9. 🏢 Multi-Tenant Organization Switcher Sheet
+<img src="screenshots/09_org_switcher_modal.svg" width="360" alt="Organization Switcher Sheet" />
 
 * **Zero-Downtime Tenant Switching:** Switch between **Acme Global Corp (USD $)** and **Zenius India Pvt Ltd (INR ₹)**.
-* **Dynamic Currency & Cache Refresh:** Instant UI refresh across all pricing, pipelines, and invoice currencies.
+* **Dynamic Currency & Cache Refresh:** Instant updates across all pricing, pipelines, and invoice currencies.
+
+---
+
+### 10. 🔐 Authentication & TOTP MFA Screen
+<img src="screenshots/10_auth_login.svg" width="360" alt="Authentication & MFA Screen" />
+
+* **Enterprise Security:** JWT-based access with TOTP Multi-Factor Authentication (MFA).
+* **Seed Fallback Mode:** Seamless offline evaluation with pre-seeded demo accounts.
 
 </div>
 
 ---
 
-## 🚀 How to Run the Application
+## 🚀 Step-by-Step Guide to Run the Application
 
 ### 📋 Prerequisites
 1. **Flutter SDK:** Flutter 3.16.0 or higher (`flutter --version`)
 2. **Dart SDK:** Dart 3.2.0 or higher
-3. Target device environment:
-   * **Android:** Android Studio / Android SDK with an emulator or connected device.
-   * **iOS:** Xcode with iOS Simulator (on macOS).
-   * **Chrome:** For instant web preview.
+3. Target device or emulator:
+   * **Web:** Google Chrome (recommended for immediate zero-config testing)
+   * **Android:** Android Studio with an Android 12+ Emulator
+   * **iOS:** Xcode with iOS Simulator (on macOS)
+   * **Desktop:** macOS Desktop support enabled
 
 ---
 
-### 🛠 Step-by-Step Execution
+### 🛠 Step-by-Step Commands
 
 #### Step 1: Clone the Repository
 ```bash
@@ -111,7 +149,7 @@ By default, the app is pre-configured to connect to the Spring Cloud API Gateway
 * **Android Emulator:** `http://10.0.2.2:8080/api/v1`
 * **Physical Device over Wi-Fi:** `http://<your-machine-ip>:8080/api/v1`
 
-> 💡 **Offline / Fallback Resilience:** If the backend services are not running, the application automatically loads high-fidelity demo data so you can test all features, charts, GPS check-ins, and AI interactions immediately without setup!
+> 💡 **Offline / Fallback Resilience:** If the backend microservices are not running, the application automatically loads high-fidelity demo data so you can test all features, charts, GPS check-ins, and AI interactions immediately without setup!
 
 To change the endpoint, open `lib/core/network/api_client.dart` and update `baseUrl`:
 ```dart
@@ -154,7 +192,7 @@ The project implements the **Clean Layered MVVM Architecture** recommended for s
 ```text
 flutter-app/
 ├── assets/
-│   └── icon/                  # High-res vector & binary app icons
+│   └── icon/                  # High-res vector & binary app icons (SVG / PNG)
 ├── screenshots/               # Visual screen mockups & diagrams
 ├── lib/
 │   ├── main.dart              # MultiProvider setup & Material 3 theme entrypoint
@@ -195,7 +233,7 @@ flutter-app/
 
 ---
 
-## ⚖️ Zoho CRM Feature Parity
+## ⚖️ Zoho CRM Feature Parity Matrix
 
 | Feature | Zoho CRM Mobile | Zenius One Flutter App |
 | :--- | :---: | :---: |
